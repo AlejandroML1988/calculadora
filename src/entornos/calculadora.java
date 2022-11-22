@@ -48,6 +48,9 @@ public class calculadora {
 		//Yo utilizaría "swtich-case" para cada operación posible.
 		
 		//Hacer suma: Javier
+		case "+":
+			resultado=a+b;
+			System.out.println("El resultado de "+a+" + "+b+" = "+resultado);
 		
 		//Hacer resta: Alejandro
 		
