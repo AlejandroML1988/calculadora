@@ -46,7 +46,7 @@ public class calculadora {
 		//Fin do-while Seleccion de menu correcta
 		
 		//Yo utilizaría "swtich-case" para cada operación posible.
-		
+		switch (operacion) {
 		//Hacer suma: Javier
 		case "+":
 			resultado=a+b;
@@ -55,7 +55,12 @@ public class calculadora {
 		//Hacer resta: Alejandro
 		
 		//Hacer multiplicación: Luis
+		case "*":
+			resultado=a*b;
+			System.out.println("El resultado de "+a+" x "+b+" = "+resultado);
+			break;
 		
+		}
 	}//main
 
 }//class
