@@ -58,6 +58,11 @@ public class calculadora {
 		break;
 		//Hacer resta: Alejandro
 		
+		case "-":
+			resultado = a - b;
+			System.out.println("El resultado de " + a + " - " + b + " = " + resultado);
+		break;
+		
 		//Hacer multiplicación: Luis
 		case "*":
 			resultado=a*b;
