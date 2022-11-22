@@ -44,6 +44,10 @@ public class calculadora {
 		}
 		while( !(operacion.equals("+") || operacion.equals("-") || operacion.equals("*")));
 		//Fin do-while Seleccion de menu correcta
+		System.out.println("Introduce un valor entero");
+		a=teclado.nextInt();
+		System.out.println("Introduce otro valor entero");
+		b=teclado.nextInt();
 		
 		//Yo utilizaría "swtich-case" para cada operación posible.
 		
@@ -51,7 +55,7 @@ public class calculadora {
 		case "+":
 			resultado=a+b;
 			System.out.println("El resultado de "+a+" + "+b+" = "+resultado);
-		
+		break;
 		//Hacer resta: Alejandro
 		
 		//Hacer multiplicación: Luis
